@@ -1,3 +1,35 @@
+// The syntax for a max-heap priority queue
+// priority_queue<object_type> variable_name;
+// Example:
+
+priority_queue<int> pq;
+// The syntax for a min-heap priority queue
+// priority_queue<object_type,vector<object_type>,greater<object_type>> variable_name;
+// Example:
+
+priority_queue<int,vector<int>,greater<int>> pq;
+
+// Functions in priority queue:
+// push() – to insert an element in the priority queue.
+// pq.push(110);
+// pq.push(220);
+// pop() – deletes the top element of the priority queue.
+// pq.pop();
+// top() – returns the element at the top of the priority queue.
+// pq.top();
+// emplace() – to insert an element in the priority.
+// pq.emplace(1);
+// pq.emplace(2);
+// size() – returns the number of elements in the priority queue.
+// pq.size();
+// empty() – to check if the priority queue is empty or not.
+// pq.empty();
+
+
+
+
+
+//*** Manual implementation of Heaps ***
 // Max-Heap data structure implementation
 #include <iostream>
 #include <vector>
